@@ -1,3 +1,4 @@
+
 import{
   Card,
   CardContent,
@@ -27,7 +28,7 @@ export default async function Home() {
 
   return (
     <main>
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-3 gap-8">
           {recipes.map(recipe => (
               <Card key={recipe.id}>
                 <CardHeader>
